@@ -1,0 +1,13 @@
+# Obsidian 内部缓存
+.obsidian/
+.DS_Store
+.screenshot/
+
+# 系统文件
+Thumbs.db
+ehthumbs.db
+
+# 临时文件
+*.tmp
+*.swp
+*~
