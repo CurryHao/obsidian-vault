@@ -1,0 +1,55 @@
+{
+  "assessments": [
+    {
+      "date": "2026-09-16",
+      "mode": "baseline",
+      "grammar": {
+        "final_level": "N4",
+        "questions": 15,
+        "correct": 8,
+        "accuracy": 53.3
+      },
+      "vocabulary": {
+        "final_level": "N4",
+        "questions": 15,
+        "correct": 13,
+        "accuracy": 86.7
+      },
+      "kanji": {
+        "final_level": "N5",
+        "questions": 10,
+        "correct": 5,
+        "accuracy": 50.0
+      },
+      "timestamp": "2026-09-16T16:12:32.644013"
+    }
+  ],
+  "stats": {
+    "trends": {
+      "grammar": [
+        {
+          "date": "2026-09-16",
+          "level": "N4",
+          "score": 2,
+          "accuracy": 53.3
+        }
+      ],
+      "vocabulary": [
+        {
+          "date": "2026-09-16",
+          "level": "N4",
+          "score": 2,
+          "accuracy": 86.7
+        }
+      ],
+      "kanji": [
+        {
+          "date": "2026-09-16",
+          "level": "N5",
+          "score": 1,
+          "accuracy": 50.0
+        }
+      ]
+    }
+  }
+}
