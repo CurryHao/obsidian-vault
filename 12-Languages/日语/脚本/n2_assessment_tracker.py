@@ -236,7 +236,7 @@ def main():
 
     args = parser.parse_args()
 
-    vault_dir = Path.home() / '桌面' / 'TechVault' / '日语'
+    vault_dir = Path.home() / '桌面' / 'TechVault' / '12-Languages' / '日语'
     tracker = N2AssessmentTracker(vault_dir)
 
     # 把 --grammar-level/correct/total 重组为解析器期望的命名属性

@@ -155,11 +155,11 @@ def main():
         print("用法: python3 n2_assessment_analyzer.py <deep_tutor_result.md>")
         print("")
         print("示例:")
-        print("  python3 n2_assessment_analyzer.py ~/桌面/TechVault/日语/日志/2026-09-03-N2自测.md")
+        print("  python3 n2_assessment_analyzer.py ~/桌面/TechVault/12-Languages/日语/日志/2026-09-03-N2自测.md")
         sys.exit(1)
     
     result_file = Path(sys.argv[1])
-    vault_dir = result_file.parent.parent.parent  # 向上3级到日语目录
+    vault_dir = result_file.parent.parent.parent.parent  # 向上4级到日语目录(原3级,父目录+1层)
     
     if not result_file.exists():
         print(f"❌ 文件不存在：{result_file}")

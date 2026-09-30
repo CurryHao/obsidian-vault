@@ -4,7 +4,7 @@
 
 set -e
 
-VAULT_DIR="$HOME/桌面/TechVault/日语"
+VAULT_DIR="$HOME/桌面/TechVault/12-Languages/日语"
 HISTORY_FILE="$VAULT_DIR/计划/自测历史记录.json"
 DATE=$(date +%Y-%m-%d)
 
@@ -205,7 +205,7 @@ EOF
 echo -e "${GREEN}✓ 日志文件已创建：${LOG_FILE}${NC}"
 echo ""
 echo -e "${YELLOW}测试完成后,运行以下命令更新记录:${NC}"
-echo "python3 ~/桌面/TechVault/日语/脚本/n2_assessment_tracker.py add \\"
+echo "python3 ~/桌面/TechVault/12-Languages/日语/脚本/n2_assessment_tracker.py add \\"
 echo "  --date $DATE --mode $RECOMMENDED_MODE \\"
 echo "  --grammar-level <N2/N3/N4/N5> --grammar-correct <对> --grammar-total <总数> \\"
 echo "  --vocab-level <N2/N3/N4/N5>   --vocab-correct <对>   --vocab-total <总数> \\"

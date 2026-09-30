@@ -4,7 +4,7 @@
 
 set -e
 
-VAULT_DIR="$HOME/桌面/TechVault/日语"
+VAULT_DIR="$HOME/桌面/TechVault/12-Languages/日语"
 DATE=$(date +%Y-%m-%d)
 LOG_FILE="$VAULT_DIR/日志/${DATE}-N2自测-DeepTutor.md"
 

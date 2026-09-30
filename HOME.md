@@ -14,6 +14,7 @@
 | 📚 基础 | [[06-CS-Fundamentals]] | 数据结构/算法/网络/OS |
 | 🏗️ 架构 | [[07-Architecture]] | 微服务/DDD/分布式 |
 | 🧠 学习闭环 | [[11-Learning/Plans/_Goal-JLPT-N2-2028]] | 2028 过 N2 · DT 评估 · Hermes 拆任务 |
+| 🌏 语言学习 | [[12-Languages/日语/00 主页]] | 日语 JLPT N2 备考 · 词汇/语法/日志 |
 
 ## 📌 快捷入口
 
